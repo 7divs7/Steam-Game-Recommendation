@@ -1,33 +1,21 @@
-# Steam Game Recommendation Engine
+![shields.io](https://img.shields.io/badge/MADE%20WITH-TensorFlow-red)
+![shields.io](https://img.shields.io/badge/Data%20Science-purple)
 
-## Objective Specification/ Data Exploration
-Identify the data mining problem type - Supervised or Unsupervised
-Supervised: Classification, Regression, Prediction
-Unsupervised: Clustering based on similarity, Find correlations or associations 
+# Steam Game Recommendation
 
-For recommendation engine, the problem type is Unsupervised. 
+This project aims to provide personalized game recommendations on Steam using two different approaches:
 
-games.csv can be used to filter games which are similar to other games
+1. **Content-Based Filtering**: Utilizing TF-IDF and cosine similarity to recommend games based on their content features.
+2. **Collaborative Filtering**: Implementing Neural Collaborative Filtering (NCF) with TensorFlow to offer recommendations based on implicit user interactions and preferences.
 
-users.csv and games.csv together can be used to filter user profiles which are similar and recommend games for a specific user 
+## Dataset
 
-## Data Loading
-Kaggle Dataset: https://www.kaggle.com/datasets/antonkozyriev/game-recommendations-on-steam
-1. games.csv: table of games with prices, ratings and release date
-2. users.csv: table of user profiles - number of purchased products and reviews 
+The project uses the [Kaggle Dataset](https://www.kaggle.com/datasets/antonkozyriev/game-recommendations-on-steam) which contains detailed information about Steam games, user reviews, and game metadata.
 
-## Data Preprocessing
+## [Check out the Project!](https://www.divyanipanda.com/Steam-Game-Recommendation/)
 
-## Model Building
-Task 1: For a given user, recommend top 5 games based on user profile
-Model: Instance-based model- KNN
+## Author
 
-Task 2: For a given user, find top 5 similar users based on user profile
-Model: Instance-based model - KNN
+[![LinkedIn-profile](https://img.shields.io/badge/LinkedIn-Profile-teal.svg)](https://www.linkedin.com/in/divyani-panda-5a8345194/)
 
-Task 3: For a given game, find top 5 similar games based on description
-Model: Text mining task, I can either use TF-IDF score and cosine similarity or use LangChain model to find games with similar description
-
-
-## Model Evaluation
-
+[*Divyani Panda*](https://github.com/7divs7)
